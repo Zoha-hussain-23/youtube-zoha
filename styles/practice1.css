@@ -1,0 +1,70 @@
+.github-button{
+  background-color: rgb(41, 173, 41);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  margin-left: 10px;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+
+  transition: box_shadow 0.15s;
+   
+}
+.github-button:hover{
+  box-shadow: 10px 10px 2px greenyellow; 
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15);
+  opacity: 0.5;
+}
+
+.stretch-button{
+  background-color: rgb(240, 28, 163);
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  padding-top: 5s;
+  padding-bottom: 5s;
+  padding-left: 15s;
+  padding-right: 15s;
+  vertical-align: left;
+  vertical-align: top;
+  
+
+  transition: padding-top 1s,
+    padding-bottom 1s,
+    padding-left 1s,
+    padding-right 1s; 
+}
+
+.stretch-button:hover {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.shadow-button{
+  background-color: rgb(28, 166, 240);
+  color: white;
+  border-radius: 2px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  vertical-align: top;
+  padding-top: 5s;
+  padding-bottom: 5s;
+  padding-left: 5s;
+  padding-right: 5s;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.shadow-button:active{
+  margin-top: 3px;
+  margin-right: 3px;
+  box-shadow: none;
+}
